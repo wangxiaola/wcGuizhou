@@ -444,8 +444,15 @@
          self.infoDictionary[@"indexPath"] = [NSIndexPath indexPathForRow:0 inSection:1];
     }
 
-    self.makingList.povertyMsg = message;
-    
+    if (self.makingList.modelsID == 5)
+    {
+        self.makingList.povertyMsg = @"";
+    }
+    else
+    {
+        self.makingList.povertyMsg = message;
+    }
+  
     NSIndexPath *indexPath = self.infoDictionary[@"indexPath"];
     [self.infoDictionary removeObjectForKey:@"indexPath"];
     [self shakeAnimationForViewIndexPath:indexPath];

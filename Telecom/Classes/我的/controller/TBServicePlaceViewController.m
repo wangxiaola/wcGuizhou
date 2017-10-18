@@ -350,6 +350,11 @@
 {
     TBWeakSelf
     [self valuesViewTableViewAll];
+    
+    if (self.makingList.povertyMsg.length > 0)
+    {
+        return;
+    }
     TBMoreReminderView *more = [[TBMoreReminderView alloc] initShowPrompt:@"亲，是否开始提交任务信息?"];
     [more showHandler:^{
         

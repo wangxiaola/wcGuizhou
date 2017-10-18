@@ -77,7 +77,7 @@
 #define CardVoucherNotice @"CardVoucherNotice" //卡券发布通知
 #define  Verification_code @"VALIDATION_code"// 验证码保存
 #define  Verification_phone @"VALIDATION_phone"// 验证手机号保存
-#define  TELECOM_ID @"12046919811"//app商店id
+#define  TELECOM_ID @"1296713793"//app商店id
 #define  GDMAP_KEY @"f95a49220214c8ef210ba3f4b274a231"//高德
 #define  START_PAGE @"START_PAGE"
 #define  IMAGE_OPERATOR @"WENWEN"//图片分割符
@@ -89,8 +89,8 @@
  *  微信
  *
  */
-#define weixinID @"wx071c2201ad28845c"
-#define weixinSecret @"e96c5edc5384dba650fd0378411f104a"
+#define weixinID @"wx34d884e73f8d9c4f"
+#define weixinSecret @"a0d921e44ecbc00cbb9249eab7ea9f15"
 
 // DEBUG LOG
 #ifdef DEBUG
